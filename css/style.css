@@ -1,0 +1,165 @@
+html, body {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #352E5B;
+    padding: 0;
+    margin: 0;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    font-size: 28px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #352E5B;
+}
+
+a:hover {
+	text-decoration: none;
+    color: #352E5B;
+}
+
+.header-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    padding: 18px 64px;
+    background: #7D67FF;
+    width: 205px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius: 8px;
+    display: block;
+    transition: all 0.5s ease;
+    display: flex;
+    bottom: 32px;
+    position: absolute;
+}
+
+/* slider */
+
+.menu {
+    background: #F8F7FF;
+    padding: 32px;
+    height: 100vh;
+    width: 270px;
+    align-items: center;
+}
+
+.menu__link {
+    display: flex;
+}
+
+.menu__item {
+    margin-top: 60px;
+    transition: all 0.5s ease;
+}
+
+.menu__link_coins {
+    color: #A5A2B8;
+    transition: all 0.5s ease;
+}
+
+.menu__link_overview {
+    color: #A5A2B8;
+    transition: all 0.5s ease;
+}
+
+.menu__img {
+    padding-right: 24px;
+}
+
+.btn__img {
+    padding-right: 10px;
+}
+
+/* offer */
+
+.offer__text {
+    padding: 0px 180px 21px 150px;
+}
+
+.offer__title {
+    font-weight: 700;
+    font-size: 74px;
+    width: 841px;
+    height: 194px;
+    margin: 0px 0px 55px 0px;
+}
+
+.offer__btn {
+    font-weight: 500;
+    font-size: 35px;
+    color: #7D67FF;
+    width: 216px;
+    height: 67px;
+    background: #F8F7FF;
+    border: 1px solid #7D67FF;
+    border-radius: 10px;
+    display: block;
+    padding: 8px 70px 10px 70px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.offer__btn:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: #7D67FF;
+    border: 1px solid #ffffff;
+}
+
+.content__litebg{
+    padding-left: 110px;
+    padding-top: 40px;
+}
+
+.content__starpurp{
+    padding-left: 88px;
+    padding-bottom: 88px;
+}
+
+.content__starpink{
+    padding-left: 0px;
+}
+
+.content__litesm{
+    padding-left: 30px;
+}
+
+.content__eth{
+    padding-left: 380px;
+}

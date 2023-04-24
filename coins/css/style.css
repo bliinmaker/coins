@@ -1,0 +1,169 @@
+html, body {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #352E5B;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #352E5B;
+}
+
+a:hover {
+	text-decoration: none;
+    color: #352E5B;
+}
+
+.header-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    background: #7D67FF;
+}
+
+.btn {
+    padding: 18px 64px;
+    background: #7D67FF;
+    width: 205px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius: 8px;
+    display: block;
+    transition: all 0.5s ease;
+    display: flex;
+    bottom: 32px;
+    position: absolute;
+}
+
+/* slider */
+
+.menu {
+    background: #F8F7FF;
+    padding: 32px;
+    height: 100vh;
+    width: 270px;
+    align-items: center;
+}
+
+.menu__link {
+    display: flex;
+}
+
+.menu__item {
+    margin-top: 60px;
+    transition: all 0.5s ease;
+}
+
+.menu__link_index {
+    color: #A5A2B8;
+    transition: all 0.5s ease;
+}
+
+.menu__link_overview {
+    color: #A5A2B8;
+    transition: all 0.5s ease;
+}
+
+.menu__img {
+    padding-right: 24px;
+}
+
+.btn__img {
+    padding-right: 10px;
+}
+
+/* crypto */
+
+.crypto {
+    width: 83%;
+}
+
+.cypto-title-wrapper {
+    background: #ffffff;
+}
+
+.crypto__text {
+    padding-right: 24px;
+    padding-top: 48px;
+    color: #A5A2B8;
+}
+
+.crypto__title {
+    padding-right: 24px;
+}
+
+.crypto-wrapper {
+    padding: 22px 333px 0px 69px;
+}
+
+.tab-wrapper {
+    display: flex;  
+    justify-content: space-between;
+}
+
+.crypto-title-wrapper {
+    display: flex;
+}
+
+.crypto__tokens__title {
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    color: #C8C2E8;
+    border-bottom: 1px solid #C8C2E8;
+    padding-bottom: 17px;
+}
+
+.crypto__tokens__title:not(:last-of-type) {
+    margin-right: 126px;
+}
+
+.crypto__text {
+    padding-left: 24px;
+}
+
+.crypto__title {
+    padding-top: 55px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+}
+
+.crypto__tab {
+    text-align: right;
+}
+
+.crypto__list {
+    padding-top: 17px;
+    color: #ffffff;
+}

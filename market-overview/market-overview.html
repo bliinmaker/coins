@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Crypto Info</title>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header-wrapper">
+                <nav class="menu">
+                    <div class="logo">
+                        <img src="/index/content/logo.svg" alt="CryptoInfo">
+                    </div>
+                    <ul class="menu__links">
+                        <li class="menu__item">
+                            <a href="/index" class="menu__link menu__link_index"><img class="menu__img" src="/index/content/home.svg" alt="#"><p>Home</p></a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/coins" class="menu__link menu__link_coins"><img class="menu__img" src="/index/content/user.svg" alt="#"><p>Coins</p></a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/overview" class="menu__link menu__link_overview"><img class="menu__img" src="/index/content/activity_active.svg" alt="#"><p>Market Overview</p></a>
+                        </li>
+                    </ul>
+                    <div class="btn-wrapper">
+                        <a href="#" class="menu__btn btn" id="menu__btn"><img class="btn__img" src="/index/content/Infosquare.svg" alt="#"><p>Guide</p></a>
+                    </div>
+                </nav>
+                <div class="overview">
+                    <p class="overview__text">Home  >  Market Overview</p>
+                    <h2 class="overview__title">Market overview</h2>
+                    <div class="price">
+                        <h3 class="price__title">Current price</h3>
+                        <div class="price-wrapper">
+                            <div class="price__now">
+                                <p class="price__now__text">$</p>
+                                <p class="price__now__title">1,820</p>
+                            </div>
+                            <div class="price__change">
+                                <form action="/overview" class="price__overviewform" id="price__overviewform">
+                                    <div class="select-wrapper">
+                                        <select id="price__choice" class="price__choice js-choice" name="symbol" form="price__overviewform">
+                                            <option value="ETHBTC">ETHBTC</option>
+                                            <option value="BUSDUSDT">BUSDUSDT</option>
+                                            <option value="DOGEUSDT">DOGEUSDT</option>
+                                        </select>
+                                    </div>
+                                    <div class="price-btn-wrapper">
+                                        <input class="price__btn" type="submit">
+                                        <img src="content/price-plus.svg" alt="">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="price__name">ETHBTC</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
